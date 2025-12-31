@@ -23,15 +23,6 @@ System Config: Windows Firewall, .wslconfig
 Project Verification
 The tool's connectivity and environmental setup were verified using the Linux neighbor table (ip neigh), confirming active communication with the local gateway.
 
-How to Run
-Clone the repository:
-
-Bash
-
-git clone https://github.com/Sandeep-int/Project-Sentinel-Asset-Discovery.git
-Install dependencies:
-
-Bash
 
 pip install -r requirements.txt
 Run the scanner (Requires sudo for raw packet privileges):
