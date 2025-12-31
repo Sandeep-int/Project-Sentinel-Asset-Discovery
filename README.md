@@ -22,11 +22,3 @@ System Config: Windows Firewall, .wslconfig
 
 Project Verification
 The tool's connectivity and environmental setup were verified using the Linux neighbor table (ip neigh), confirming active communication with the local gateway.
-
-
-pip install -r requirements.txt
-Run the scanner (Requires sudo for raw packet privileges):
-
-Bash
-
-sudo python3 mapper.py
